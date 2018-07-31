@@ -1,0 +1,15 @@
+﻿  main.c
+  Src/main.c: In function 'main':
+Src\main.c(97,2): warning :  implicit declaration of function 'LCD1602_Begin4BIT' [-Wimplicit-function-declaration]
+    LCD1602_Begin4BIT(RS_GPIO_Port, RS_Pin, E_Pin, D4_GPIO_Port, D4_Pin, D5_Pin, D6_Pin, D7_Pin);
+    ^~~~~~~~~~~~~~~~~
+Src\main.c(98,2): warning :  implicit declaration of function 'LCD1602_print' [-Wimplicit-function-declaration]
+    LCD1602_print("Hello World!");
+    ^~~~~~~~~~~~~
+Src\main.c(99,2): warning :  implicit declaration of function 'LCD1602_2ndLine' [-Wimplicit-function-declaration]
+    LCD1602_2ndLine();
+    ^~~~~~~~~~~~~~~
+  Linking ../VisualGDB/Debug/LCD...
+  ------------------- Memory utilization report -------------------
+  Used FLASH: 9592 bytes out of 512KB (1%) [+4]
+  Used SRAM: 80 bytes out of 128KB (0%)
